@@ -1,4 +1,4 @@
-Castle Crashers Access, test build 0.7.1
+Castle Crashers Access, test build 0.7.2
 
 A screen reader mod for the Steam version of Castle Crashers. It speaks
 through your screen reader using Prism, and falls back to the Windows voice if
@@ -14,6 +14,26 @@ The story has been played with the mod from Home Castle through the Cyclops'
 Fortress. Past that point nothing has been checked yet: if you get further,
 please send your log (see IF SOMETHING IS WRONG at the end), even when
 everything went well. It shows what the mod heard and said in each level.
+
+
+WHAT'S NEW IN 0.7.2
+
+- Keyboard players hear their own keys. Hints, trainer lessons, combos, magic
+  moves and the game's own tips name the key set in the game's Keyboard
+  Settings ("Press S to take it", "Hold Control to block"), and controller
+  players hear the controller buttons. The mod follows whichever you used
+  last. A controller is not needed: everything works from the keyboard, and
+  the mod's own commands are on F1 to F12.
+- Keyboard Settings is read: each line says the action and its key, for
+  example "Light Attack: S, 5 of 20", and the new key when you change one.
+- The Controller screen (Help & Settings, Settings) reads the controller
+  layout instead of nonsense.
+- PlayStation controllers (DualSense, DualSense Edge, DualShock 4), with Steam
+  Input on: the mod's stick commands work. The game gets these controllers
+  through Steam Input, where the mod couldn't see them; it now reads them
+  directly, by USB or Bluetooth.
+- Play Online: after choosing the mode, "Play with anyone" and "Play with
+  friends" are read (they were read as the art style question).
 
 
 WHAT'S NEW IN 0.7.1
@@ -124,7 +144,8 @@ WHAT SHOULD SPEAK
   yet are left out, and so is a fork that leads to one (the path down from
   Home Castle opens with the Insane Store). Press F5, F7 or the left stick on the
   map to hear where you are and the paths again.
-- Trainer lessons with the button named, using standard controller names:
+- Trainer lessons with the button named (your keyboard key when you play on
+  the keyboard), using standard controller names on a controller:
   "Press X for a LIGHT ATTACK", "Hold the left trigger to BLOCK the
   baddies!", "Hold the right trigger and press Y for a SPLASH ATTACK".
   The layout is: A jump, X light attack, Y heavy attack, B use item,
@@ -366,6 +387,11 @@ barbarian at the end of Barbarian War) aren't marked as bosses by the game;
 the mod treats any enemy with far more health than the rest as one.
 
 KEYS
+
+These are the mod's own keys. The game's keys are in Help & Settings,
+Settings, Keyboard Settings (by default: arrows move, S light attack, D heavy
+attack, A jump, G use item, Shift magic, Control block, R and T change item,
+Escape pause; Enter plays a level on the world map).
 
 F1   list the keys
 F2   repeat the last thing spoken

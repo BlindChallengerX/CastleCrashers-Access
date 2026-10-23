@@ -5,11 +5,14 @@ your screen reader using Prism (NVDA, JAWS and others), or the Windows voice if
 none is running, and adds sounds so blind players can play by ear.
 
 **Download:** [the latest release](https://github.com/BlindChallengerX/CastleCrashers-Access/releases/latest)
-(CastleAccess-0.7.1.zip).
+(CastleAccess-0.7.2.zip).
 
 ## What you need
 
 - Castle Crashers on Steam. The mod does not include the game.
+- A keyboard or a controller. On the keyboard, the mod names your own keys;
+  Xbox and PlayStation controllers (DualSense, DualShock 4) both work, also
+  with Steam Input on.
 
 To install, unzip anywhere and run Install.cmd: it finds the game in your Steam
 libraries. Uninstall.cmd removes the mod. [MOD-README.txt](MOD-README.txt)
