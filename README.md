@@ -5,7 +5,7 @@ your screen reader using Prism (NVDA, JAWS and others), or the Windows voice if
 none is running, and adds sounds so blind players can play by ear.
 
 **Download:** [the latest release](https://github.com/BlindChallengerX/CastleCrashers-Access/releases/latest)
-(CastleAccess-0.7.0.zip).
+(CastleAccess-0.7.1.zip).
 
 ## What you need
 

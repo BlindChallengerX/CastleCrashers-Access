@@ -1,4 +1,4 @@
-Castle Crashers Access, test build 0.7.0
+Castle Crashers Access, test build 0.7.1
 
 A screen reader mod for the Steam version of Castle Crashers. It speaks
 through your screen reader using Prism, and falls back to the Windows voice if
@@ -14,6 +14,14 @@ The story has been played with the mod from Home Castle through the Cyclops'
 Fortress. Past that point nothing has been checked yet: if you get further,
 please send your log (see IF SOMETHING IS WRONG at the end), even when
 everything went well. It shows what the mod heard and said in each level.
+
+
+WHAT'S NEW IN 0.7.1
+
+- Fixed: with the "Fresh art" look (Painter Boss Paradise), the game crashed
+  as soon as the world map opened. The mod's change to the Fresh art map file
+  moved the map's pictures out of place. Run Install.cmd again: it repairs
+  the file. Classic art was not affected.
 
 
 WHAT'S NEW IN 0.7.0
