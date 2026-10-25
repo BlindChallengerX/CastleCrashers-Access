@@ -5,7 +5,7 @@ your screen reader using Prism (NVDA, JAWS and others), or the Windows voice if
 none is running, and adds sounds so blind players can play by ear.
 
 **Download:** [the latest release](https://github.com/BlindChallengerX/CastleCrashers-Access/releases/latest)
-(CastleAccess-0.7.2.zip).
+(CastleAccess-0.7.3.zip).
 
 ## What you need
 
@@ -27,9 +27,10 @@ explains every key and sound.
 - Items, weapons and pickups lying around, read and found by sound; F8 steps
   through them.
 - In levels: an enemy radar, boss names, health and attack callouts, wall hums
-  and terrain sounds, and a walk-to key (Shift+F3) that leads you around walls
-  to exits, chests, princesses and items, with hints for gates, ledges, drops
+  and terrain sounds, and a walking guide (Shift+F3) whose clicks lead you
+  around walls (you do the walking) to exits, chests, princesses and items, with hints for gates, ledges, drops
   and climbs.
+- Online co-op: the lobby is read, and the mod follows your own character.
 - Briefings for each level and its special parts, such as the catapults and
   the chases.
 

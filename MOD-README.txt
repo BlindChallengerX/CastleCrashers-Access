@@ -1,4 +1,4 @@
-Castle Crashers Access, test build 0.7.2
+Castle Crashers Access, test build 0.7.3
 
 A screen reader mod for the Steam version of Castle Crashers. It speaks
 through your screen reader using Prism, and falls back to the Windows voice if
@@ -14,6 +14,30 @@ The story has been played with the mod from Home Castle through the Cyclops'
 Fortress. Past that point nothing has been checked yet: if you get further,
 please send your log (see IF SOMETHING IS WRONG at the end), even when
 everything went well. It shows what the mod heard and said in each level.
+
+
+WHAT'S NEW IN 0.7.3
+
+- The online lobby is read: what the keys do (Y opens the game to the public,
+  X invites Steam friends, Escape leaves), each character as you move through
+  them with its level, players joining, leaving and getting ready, and the
+  "leave the game?" question. A match needs at least two online players, so
+  on your own the game waits after you pick a character.
+- Online play: the mod follows your own character. It used to follow player
+  1, which online can be your friend, so the radar, wall sounds, hits and the
+  walking guide were about their character. While yours is knocked out the
+  level sounds stay quiet. Your friend's stats screen isn't read.
+- Online play: the mod no longer changes the game. Dropped items still stay
+  put in single player and couch co-op, but online they disappear as normal:
+  keeping them on one computer only made the two games drift apart, which
+  could cause lag and players seeing different things.
+- Online play: the mod does about a third of the work each frame, so it
+  doesn't hold up the other players.
+- The walking guide (Shift+F3, F8, right stick) doesn't walk for you: it
+  leads you with clicks while you walk. The help now says so.
+- Right stick categories: flick down or up to pick exits, items, chests and
+  princesses, animal orbs, shop or trainers, then right or left to step
+  through them.
 
 
 WHAT'S NEW IN 0.7.2
@@ -254,11 +278,18 @@ hitting it there. Enemy jumps and landings are quieter than yours.
 Alt+F6 turns hit, jump and landing sounds on or off (including the sound
 when you get hit; health is still spoken).
 
-Items on the ground: flick the right stick right (or press F8) to step to the
-next item lying around, nearest first, and left (or Shift+F8) to go back. Each
-one is read with its number, for example "gold, 1 of 3, 5 steps right, in your
-lane", and becomes your target, so its own sound leads you to it. After the
-last one you hear "End of items". The list is made fresh if you haven't used
+Categories: flick the right stick down (or press Control+F8) for the next
+category and up (or Control+Shift+F8) for the previous one: exits, items,
+chests and princesses (and doors to break), animal orbs, shop and trainers.
+Empty ones are skipped, and you hear the name and how many, for example
+"Exits, 2". It starts on items.
+
+Then flick the right stick right (or press F8) to step to the next thing in
+that category, nearest first, and left (or Shift+F8) to go back. Each one is
+read with its number, for example "gold, 1 of 3, 5 steps right, in your
+lane", and becomes your target, so the walking guide leads you to it. The way
+back is always last among the exits. After the last one you hear "End of
+items" (or of exits, and so on). The list is made fresh if you haven't used
 it for 8 seconds. Weapons drop only now and then, when an enemy carrying one
 dies, or when you swap yours.
 
@@ -345,10 +376,10 @@ watery sweep for water, a buzz for a hazard such as a pit, a double knock for
 a raised surface like a table. A two-note chime comes from the direction of a
 nearby level exit.
 
-Walking to things: Shift+F3 (or the right stick button on a controller) picks
+Walking guide: Shift+F3 (or the right stick button on a controller) picks
 the nearest thing to walk to, such as a trainer or an exit, and says where it
-is, for example "Walking to exit, 40 steps right, 2 lanes up". A woodblock
-click then leads you there, faster as you get closer, using the pitch code.
+is, for example "Walking to exit, 40 steps right, 2 lanes up". The mod doesn't
+walk for you: you walk, and a woodblock click leads you there, faster as you get closer, using the pitch code.
 The click follows a route around walls: it comes from the next point you can
 walk to in a straight line, so if the target is behind a wall it leads you
 around, for example back to a staircase and up it. The exit bell follows the
@@ -399,14 +430,15 @@ F3   read every item in the current menu
 F4   turn reading of all screen text on or off. Use this on screens that stay
      silent, like the world map; it reads any text the
      game changes on screen. It can be chatty.
-Shift+F3 or right stick button  walk to the next nearest thing
+Shift+F3 or right stick button  guide to the next nearest thing (you walk)
 Ctrl+F3  list nearby things
 F5   your health, level, skill points to spend, current item, the number of
      enemies, where the nearest one is, and the nearest trainer and exit
 Shift+F5  the level briefing again
 Ctrl+F5   the combos you have, and the level of the next one
 F7 or left stick button   which enemies are left
-F8 / Shift+F8 or right stick flicked right / left   next / previous item on the ground
+Control+F8 / Control+Shift+F8 or right stick flicked down / up   next / previous category
+F8 / Shift+F8 or right stick flicked right / left   next / previous thing in that category
 F6   turn gameplay sounds on or off
 Shift+F6  turn the wall hum on or off
 Ctrl+F6   turn pickup sounds on or off
