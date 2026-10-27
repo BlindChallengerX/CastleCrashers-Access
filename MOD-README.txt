@@ -1,4 +1,4 @@
-Castle Crashers Access, test build 0.7.3
+Castle Crashers Access, test build 0.7.4
 
 A screen reader mod for the Steam version of Castle Crashers. It speaks
 through your screen reader using Prism, and falls back to the Windows voice if
@@ -14,6 +14,18 @@ The story has been played with the mod from Home Castle through the Cyclops'
 Fortress. Past that point nothing has been checked yet: if you get further,
 please send your log (see IF SOMETHING IS WRONG at the end), even when
 everything went well. It shows what the mod heard and said in each level.
+
+
+WHAT'S NEW IN 0.7.4
+
+- Right stick categories have a new one, bosses (Control F8 on the
+  keyboard). The walking guide follows the boss as it moves, and says "Boss
+  in reach" with the side once you can hit it, then stays quiet.
+- Lava World: the Mini Volcano is now found. Once it wakes up the mod says
+  so, it shows up in the bosses list with its health, and its health is
+  called out every quarter. Only someone who has eaten a sandwich can hurt
+  it, and fire demons keep coming until it is destroyed. The level briefing
+  (Shift F5) says this too.
 
 
 WHAT'S NEW IN 0.7.3
@@ -279,10 +291,15 @@ Alt+F6 turns hit, jump and landing sounds on or off (including the sound
 when you get hit; health is still spoken).
 
 Categories: flick the right stick down (or press Control+F8) for the next
-category and up (or Control+Shift+F8) for the previous one: exits, items,
-chests and princesses (and doors to break), animal orbs, shop and trainers.
-Empty ones are skipped, and you hear the name and how many, for example
-"Exits, 2". It starts on items.
+category and up (or Control+Shift+F8) for the previous one: exits, bosses,
+items, chests and princesses (and doors to break), animal orbs, shop and
+trainers. Empty ones are skipped, and you hear the name and how many, for
+example "Exits, 2". It starts on items.
+
+Bosses lists the bosses and mini-bosses anywhere in the level, with their
+health, for example Lava World's Mini Volcano. A boss moves, so the walking
+guide keeps following it; when it is close enough to hit you hear "Boss in
+reach", and the guide stays quiet until it gets away again.
 
 Then flick the right stick right (or press F8) to step to the next thing in
 that category, nearest first, and left (or Shift+F8) to go back. Each one is
